@@ -1,0 +1,43 @@
+.feature {
+    text-align: center;
+}
+
+.feature, .faq {
+    background-color: #f0f8ff;
+}
+
+.curriculum {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.instructor {
+    background-color: #c0c0c0;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+h1, h2, .feature {
+    text-align: center;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    font-style: italic;
+}
+
+.note {
+    list-style: none;
+    line-height: 3.5em;
+}
+
+article {
+    border-style: dashed;
+    border-width: thin;
+}
