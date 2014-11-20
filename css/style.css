@@ -1,38 +1,78 @@
-.feature {
-    text-align: center;
-}
 
-.feature, .faq {
+/* SHARED STYLING */
+
+.headerSection, .faqSection {
     background-color: #f0f8ff;
 }
 
-.curriculum {
-    background-color: #000000;
-    color: #ffffff;
+.headerSection, .sectionHeading {
+    text-align: center;
 }
 
-.instructor {
-    background-color: #c0c0c0;
+
+/* SECTION HEADINGS */
+
+.sectionHeading {
+    font-family: 'Oswald', sans-serif;
 }
+
+
+/* LINKS STYLING */
 
 a {
     color: #ff0000;
     text-decoration: none;
 }
 
-h1, h2, .feature {
-    text-align: center;
+
+/* HEADER SECTION */
+
+.headerSection {
+    background-image: url("../img/laptop.jpg");
+    background-size: cover;
+    min-height: auto;
 }
 
-.question {
+.headerTagLine {
+    color: #ffffff;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+
+/* FAQ SECTION */
+
+.faqList {
+    background-color: rgba(0,0,0,0.5);
+    width: 500px;
+    line-height: 1.5em;
+}
+
+.faqQuestion {
     font-weight: bold;
 }
 
-.answer {
+.faqAnswer {
     font-style: italic;
 }
 
-.note {
+
+/* CURRICULUM SECTION */
+
+.curriculumSection {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* INSTRUCTOR SECTION */
+
+.instructorSection {
+    background-color: #c0c0c0;
+}
+
+.curriculumNote {
     list-style: none;
     line-height: 3.5em;
 }
