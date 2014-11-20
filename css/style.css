@@ -65,16 +65,16 @@ a {
     color: #ffffff;
 }
 
+.curriculumNote {
+    list-style: none;
+    line-height: 3.5em;
+}
+
 
 /* INSTRUCTOR SECTION */
 
 .instructorSection {
     background-color: #c0c0c0;
-}
-
-.curriculumNote {
-    list-style: none;
-    line-height: 3.5em;
 }
 
 article {
