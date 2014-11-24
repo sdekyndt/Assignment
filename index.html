@@ -1,55 +1,86 @@
-<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/html">
 
     <head lang="en">
         <meta charset="UTF-8">
         <title>DecodeMTL</title>
+        <link href='http://fonts.googleapis.com/css?family=Halant:300,400,500,600,700|Droid+Sans:400,700'
+              rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/style.css"/>
-        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
 
-        <section class="headerSection">
+        <header class="headerSection">
 
-            <h1>DecodeMTL</h1>
+            <img class="headerLogo" src="img/decodemtl-logo-white.png">
 
-            <img class="headerLogo" src="img/logo.png">
+            <nav class="headerNavBar">
 
-            <p class="headerTagLine">
-                Learn front-end web development in 8 weeks.
-            </p>
+                <ul class="navList">
 
-        </section>
+                    <li><a class="navMenuItem navCallToAction" href="#" title="Apply">apply</a></li>
+                    <li><a class="navMenuItem" href="#faq" title="FAQ">faq</a></li>
+                    <li><a class="navMenuItem" href="mailto:hello@decodemtl.com?subject=Request for information "
+                           title="Request for information">contact</a></li>
+                    <li><a class="navMenuItem" href="#schedule" title="About the schedule">schedule</a></li>
+                    <li><a class="navMenuItem" href="#instructor" title="About the instructor">instructor</a></li>
+                    <li><a class="navMenuItem" href="#curriculum" title="About the course curriculum">curriculum</a></li>
+                    <li><a class="navMenuItem" href="#about" title="About front-end development">about</a></li>
 
-        <section class="anchorSection">
-            <ul>
-                <li><a href="#faq" title="FAQ">FAQ</a></li>
-                <li><a href="#curriculum" title="About the course curriculum">Curriculum</a></li>
-                <li><a href="#schedule" title="About the schedule">Schedule</a></li>
-                <li><a href="#instructor" title="About the instructor">Instructor</a></li>
-            </ul>
-        </section>
+                </ul>
 
-        <section class="faqSection">
+            </nav>
 
-            <h2 id="faq" class="sectionHeading">FAQ</h2>
+        </header>
 
-            <ul class="faqList">
+        <div class="featureSection">
+
+            <section class="featureTagLine">
+
+                <h1 class="mainTagLine">
+                    Learn front-end <br/>
+                    web development
+                </h1>
+
+                <h2 class="subTagLine">
+                    in 8 weeks
+                </h2>
+
+            </section>
+
+            <div class="ctaSection">
+                <p class="featureCallToAction">
+                    Apply now
+                </p>
+            </div>
+
+
+        </div>
+
+        <section class="aboutSection">
+
+            <h2 id="about" class="sectionHeading">
+                Take the first step <br/>
+                in becoming a developer
+            </h2>
+
+            <h3 class="sectionSubHeading">by learning front-end web development</h3>
+
+            <ul class="aboutList">
                 <li>
-                    <p class="faqQuestion">What is front-end development?</p>
-                    <p class="faqAnswer">Front-end web development allows you to build beautifully crafted and well coded simple websites.</p>
+                    <p class="aboutQuestion">What is front-end development?</p>
+                    <p class="aboutAnswer">Front-end web development allows you to build beautifully crafted and well coded simple websites.</p>
                 </li>
                 <li>
-                    <p class="faqQuestion">What will I learn to do?</p>
-                    <p class="faqAnswer">You will learn how to quickly turn ideas into working prototypes, and be able to design and build a
+                    <p class="aboutQuestion">What will I learn to do?</p>
+                    <p class="aboutAnswer">You will learn how to quickly turn ideas into working prototypes, and be able to design and build a
                         well structured website</p>
                 </li>
                 <li>
-                    <p class="faqQuestion">What are the course requirements?</p>
-                    <p class="faqAnswer">This course is for beginners who are eager to learn web development. You will be required to put in
+                    <p class="aboutQuestion">What are the course requirements?</p>
+                    <p class="aboutAnswer">This course is for beginners who are eager to learn web development. You will be required to put in
                         a lot of work to get the most of this course. A laptop is also required.</p>
                 </li>
             </ul>
@@ -63,63 +94,61 @@
                 <ol>
                     <li>Introduction
                         <ul>
-                            <li>Tools: WebStorm and Chrome</li>
-                            <li>Informal HTML intro</li>
+                            <li>Overview of the schedule</li>
+                            <li>Setup of development environment</li>
+                            <li>High-level introduction to HTML and CSS</li>
+                            <li>High-level introduction to Git and Github</li>
+                            <li>Brief overview of how the web works (servers, clients, etc.)</li>
                         </ul>
                     </li>
                     <li>HTML
                         <ul>
-                            <li>Semantic tags</li>
-                            <li>Discussion: HTML5</li>
+                            <li>Brief history of HTML</li>
+                            <li>Introduction to HTML's role, structure vs. presentation</li>
+                            <li>Understanding what is meant by HTML5</li>
+                            <li>Using HTML semantic tags to create meaningful documents</li>
+                            <li>Understanding of images, differences between the various image formats</li>
                         </ul>
                     </li>
                     <li>CSS
                         <ul>
-                            <li>Selectors</li>
-                            <li>Inheritance</li>
+                            <li>Introduction to CSS' role, structure vs. presentation</li>
+                            <li>Experimenting with basic CSS properties</li>
+                            <li>Understanding of the CSS cascade and specificity</li>
+                            <li>Understanding of the CSS box model</li>
+                            <li>Use a browser's inspector to interact with the content</li>
+                            <li>Use media queries to create a responsive experience</li>
                         </ul>
                     </li>
                     <li>JavaScript
                         <ul>
-                            <li>Basic javascript</li>
-                            <li>jQuery</li>
+                            <li>Explain the use of Javascript in front-end development</li>
+                            <li>High-level understanding of imperative vs. declarative coding</li>
+                            <li>Javascript language: variables, data types, control flow, functions</li>
+                            <li>Introduction to the DOM and its manipulation</li>
+                            <li>Using jQuery for smoother DOM manipulations</li>
                         </ul>
                     </li>
-                    <li>Responsive Framework: Foundation</li>
-                    <li>Project Week</li>
+                    <li>Responsive Framework: Foundation
+                        <ul>
+                            <li>High-level discussion about responsiveness</li>
+                            <li>Using our newly-acquired understanding of front-end technologies,
+                                explore Foundation’s offerings</li>
+                            <li>Demo: creating a small landing page using Foundation’s responsive components</li>
+                        </ul>
+                    </li>
+                    <li>Project Week
+                        <ul>
+                            <li>Using everything that was learned through the sessions, create a personal landing page
+                                or a microsite. This project can be done alone or with a group. Your instructor will
+                                control the scope of the project, and will be guiding you throughout.</li>
+                        </ul>
+                    </li>
                     <li class="curriculumNote">
                         During project week, students will work on their own project under the guidance of their
                         instructor.
                     </li>
                 </ol>
-
-        </section>
-
-        <section class="scheduleSection">
-
-            <h2 id="schedule" class="sectionHeading">Schedule</h2>
-
-            <table>
-
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td class="day">Monday</td>
-                        <td class="time">18:30 - 20:30</td>
-                    </tr>
-                    <tr>
-                        <td class="day">Wednesday</td>
-                        <td class="time">12:30 - 14:30</td>
-                    </tr>
-                </tbody>
-
-            </table>
 
         </section>
 
@@ -141,6 +170,87 @@
             </article>
 
         </section>
+
+        <section class="scheduleSection">
+
+            <h2 id="schedule" class="sectionHeading">Schedule</h2>
+
+            <table>
+
+                <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td class="day">Monday</td>
+                    <td class="time">18:30 - 20:30</td>
+                </tr>
+                <tr>
+                    <td class="day">Wednesday</td>
+                    <td class="time">12:30 - 14:30</td>
+                </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section class="faqSection">
+
+            <h2 id="faq" class="sectionHeading">FAQ</h2>
+
+            <ul class="faqList">
+                <li>
+                    <p class="faqQuestion">Do I need any prior knowledge to attend this course?</p>
+                    <p class="faqAnswer">No, this course welcomes beginners who have never written a line of code
+                        before, or those who have tinkered with a minimal amount of code.</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">What are the requirements to take part in this course?</p>
+                    <p class="faqAnswer">You will need to be ambitious, focused, willing to work on your own time, and
+                        be receptive to learning new things. You will also need to bring a laptop.
+                        (Mac Preferred but not necessary)</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">Does everyone get accepted for the course?</p>
+                    <p class="faqAnswer">Only those candidates which we feel will benefit the most from this course
+                        will be accepted.</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">How many students are in the classroom?</p>
+                    <p class="faqAnswer">The course is limited to a maximum of 10 students. Seats tend to fill up
+                        quickly so make sure to apply as soon as possible.</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">Is 8 part-time weeks enough to learn how to code?</p>
+                    <p class="faqAnswer">Yes and no. It’s an excellent start and you can become a junior front-end web
+                        developer. However, you will need to continue learning and practicing to refine and grow
+                        your skill set.</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">How much does the course cost?</p>
+                    <p class="faqAnswer">Tuition for the course is $2,500 and is payable in two equal payments. We
+                        accept all major forms of payment.</p>
+                </li>
+                <li>
+                    <p class="faqQuestion">What are the payment deadlines?</p>
+                    <p class="faqAnswer">Once you are accepted into the course, you will be required to pay a $250
+                        deposit to secure your seat. The remaining balance is split into two equal payments. The first
+                        due on the starting day of the course, and the second due midway through the course.</p>
+                </li>
+            </ul>
+
+        </section>
+
+        <footer class="footerSection">
+            <div>
+                <img class="footerLogo" src="img/decodemtl-logo-white.png">
+            </div>
+        </footer>
 
     </body>
 

@@ -1,0 +1,110 @@
+
+/* SHARED STYLING */
+
+.featureSection, .faqSection {
+    background-color: #f0f8ff;
+}
+
+.featureSection, .sectionHeading {
+    text-align: center;
+}
+
+
+/* SECTION HEADINGS */
+
+.sectionHeading {
+    font-family: 'Oswald', sans-serif;
+}
+
+#schedule {
+    color: rgba(255,255,255,1);
+}
+
+
+/* LINKS STYLING */
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+
+/* HEADER SECTION */
+
+.headerSection {
+    background-color: rgba(0,0,0,1);
+}
+
+.headerLogo {
+    float: left;
+}
+
+.headerNavigation {
+    float: right;
+}
+
+.navigationList {
+    list-style: none;
+    display: inline-block;
+}
+
+/* FEATURE SECTION */
+
+.featureSection {
+    background-image: url("../img/laptop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerTitle {
+    color: #ffffff;
+}
+
+.featureTagLine {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+
+/* FAQ SECTION */
+
+.faqList {
+    background-color: rgba(0,0,0,0.5);
+    width: 500px;
+    line-height: 1.5em;
+}
+
+.faqQuestion {
+    font-weight: bold;
+}
+
+.faqAnswer {
+    font-style: italic;
+}
+
+
+/* CURRICULUM SECTION */
+
+.curriculumSection {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.curriculumNote {
+    list-style: none;
+    line-height: 3.5em;
+}
+
+
+/* INSTRUCTOR SECTION */
+
+.instructorSection {
+    background-color: #c0c0c0;
+}
+
+article {
+    border-style: dashed;
+    border-width: thin;
+}

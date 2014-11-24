@@ -1,83 +1,190 @@
 
-/* SHARED STYLING */
+/* ===== SHARED STYLING ===== */
 
-.headerSection, .faqSection {
+.featureSection, .faqSection {
     background-color: #f0f8ff;
 }
 
-.headerSection, .sectionHeading {
-    text-align: center;
-}
-
-
-/* SECTION HEADINGS */
+/* ===== SECTION HEADINGS ===== */
 
 .sectionHeading {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
-/* LINKS STYLING */
+/* ===== LINKS STYLING ===== */
 
-a {
-    color: #ff0000;
+
+
+/* ===== HEADER SECTION ===== */
+
+.headerSection {
+    background-color: rgba(0,0,0,1);
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+/* Header Logo */
+
+.headerLogo {
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    height: 50px;
+}
+
+/* Header Navigation Bar */
+
+.navList {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-top: 0;
+}
+
+.navList li {
+    display: inline-block;
+    float: right;
+}
+
+.navMenuItem {
+    color: rgba(255,255,255,1);
+    font-family: 'Halant', serif;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    list-style: none;
+    margin-right: 20px;
     text-decoration: none;
 }
 
+.navCallToAction {
+    background-color: rgba(255,0,0,1);
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 11px;
+}
 
-/* HEADER SECTION */
+/* ===== FEATURE SECTION ===== */
 
-.headerSection {
+.featureSection {
     background-image: url("../img/laptop.jpg");
     background-size: cover;
-    min-height: auto;
+    height: 700px;
+    overflow: hidden;
 }
 
-.headerTagLine {
-    color: #ffffff;
+.featureTagLine {
+    color: rgba(255,255,255,1);
+    display: table;
+    text-align: center;
+    width: 100%;
+}
+
+.mainTagLine, .subTagLine {
+    font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
-    font-variant: small-caps;
-    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 3px 1px rgba(0,0,0,0.75);
+
 }
 
+.mainTagLine {
+    font-size: 4.5em;
+    margin-bottom: 0;
+}
 
-/* FAQ SECTION */
+.subTagLine {
+    font-size: 2.5em;
+    margin-top: 0;
+}
 
-.faqList {
-    background-color: rgba(0,0,0,0.5);
-    width: 500px;
+.ctaSection {
+    color: rgba(255,255,255,1);
+    text-align: center;
+}
+
+.featureCallToAction {
+    background-color: rgba(255,0,0,1);
+    display: inline-block;
+    font-family: 'Halant', serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    margin-bottom: 0;
+}
+
+.sectionSubHeading {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.75em;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aboutList {
     line-height: 1.5em;
 }
 
-.faqQuestion {
+.aboutList li {
+    display: table-cell;
+    width: 200px;
+}
+
+.aboutQuestion {
+    font-family: 'Halant', serif;
+    font-size: 1.5em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
-.faqAnswer {
-    font-style: italic;
+.aboutAnswer {
+    font-family: 'Halant', serif;
+    font-size: 1em;
 }
 
-
-/* CURRICULUM SECTION */
+/* ===== COURSE CURRICULUM SECTION ===== */
 
 .curriculumSection {
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.curriculumNote {
-    list-style: none;
-    line-height: 3.5em;
+    background-color: rgba(0,0,0,0.25);
 }
 
 
-/* INSTRUCTOR SECTION */
+/* ===== INSTRUCTOR SECTION ===== */
 
-.instructorSection {
-    background-color: #c0c0c0;
+
+
+
+/* ===== SCHEDULE SECTION  ===== */
+
+.scheduleSection {
+    background-image: url("../img/Montreal.jpg");
 }
 
-article {
-    border-style: dashed;
-    border-width: thin;
+#schedule {
+    color: rgba(255,255,255,1);
+}
+
+
+/* ===== FAQ   SECTION  ===== */
+
+
+/* ===== FOOTER SECTION ===== */
+
+.footerSection {
+    background-color: rgba(0,0,0,1);
 }
